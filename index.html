@@ -1,0 +1,904 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nunna Chirudeepak — Personal Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio website for Nunna Chirudeepak, 1st Year B.Tech CSE student at Joy University (NIAT/NxtWave) and aspiring software developer."
+    />
+    <meta property="og:title" content="Nunna Chirudeepak — Personal Portfolio" />
+    <meta
+      property="og:description"
+      content="Personal portfolio website for Nunna Chirudeepak, 1st Year B.Tech CSE student at Joy University (NIAT/NxtWave) and aspiring software developer."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts: Plus Jakarta Sans (Headings), DM Sans (Body), JetBrains Mono (Indices) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@500&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- External CSS3 Stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Accessibility: Skip straight to main content -->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <!-- =========================================================
+         TOP NAVIGATION BAR (Pure HTML5 + CSS3, No JavaScript)
+         ========================================================= -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <!-- Zone 1: Brand Wordmark -->
+        <a href="#home" class="brand-wordmark">NUNNA CHIRUDEEPAK</a>
+
+        <!-- Pure-CSS Mobile Menu Toggle -->
+        <input
+          type="checkbox"
+          id="nav-toggle"
+          class="nav-toggle"
+          aria-label="Toggle navigation menu"
+        />
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation menu">
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </label>
+
+        <!-- Zone 2: Primary Navigation Links -->
+        <nav class="primary-nav" aria-label="Primary Navigation">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#goals" class="nav-link">Goals</a>
+          <!-- Mobile-only CTA inside drawer -->
+          <a href="#contact" class="nav-link nav-link-mobile-cta">Contact Me</a>
+        </nav>
+
+        <!-- Zone 3: Single Primary Action -->
+        <div class="header-action">
+          <a href="#contact" class="btn btn-primary btn-sm">Contact Me</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- =========================================================
+           1. HOME / HERO SECTION
+           ========================================================= -->
+      <section id="home" class="hero-section">
+        <div class="container hero-grid">
+          <!-- Hero Left Column: Identity, Role, Intro & Actions -->
+          <div class="hero-content">
+            <p class="hero-kicker">
+              1st Year B.Tech CSE Student &middot; Joy University &middot; NIAT / NxtWave
+            </p>
+            <h1 class="hero-name">NUNNA CHIRUDEEPAK</h1>
+            <p class="hero-role">Aspiring Software Developer</p>
+            <p class="hero-subtitle">
+              B.Tech CSE Student | Python Beginner | Web Development Enthusiast
+            </p>
+            <p class="hero-intro">
+              Passionate about technology, programming, and building clean digital experiences. I am
+              focused on strengthening my computer science fundamentals while crafting responsive web
+              interfaces and practicing Python problem solving every day.
+            </p>
+
+            <!-- Hero Action Buttons -->
+            <div class="hero-actions">
+              <!-- Replace the data URI below with href="assets/Nunna_Chirudeepak_CV.pdf" once you create your PDF resume -->
+              <a
+                href="data:text/plain;charset=utf-8,NUNNA%20CHIRUDEEPAK%0AAspiring%20Software%20Developer%0AB.Tech%20Computer%20Science%20and%20Engineering%20(1st%20Year)%0AJoy%20University%20(in%20collaboration%20with%20NIAT%2FNxtWave)%0A%0AContact%3A%20chirudeepakcherry%40gmail.com%0AGitHub%3A%20https%3A%2F%2Fgithub.com%2Fchirudeepakcherry-bot%0ALinkedIn%3A%20https%3A%2F%2Fwww.linkedin.com%2Fin%2Fchirudeepak-cherry-63aa1443b%2F%0A%0ASkills%3A%20Python%20(Beginner)%2C%20HTML5%2C%20CSS3%2C%20Basic%20Web%20Development%2C%20Computer%20Science%20Fundamentals%2C%20Problem%20Solving"
+                download="Nunna_Chirudeepak_CV.txt"
+                class="btn btn-primary"
+              >
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span>Download CV</span>
+              </a>
+
+              <a href="#contact" class="btn btn-secondary">
+                <span>Contact Me</span>
+              </a>
+            </div>
+
+            <!-- Hero Social Links -->
+            <div class="hero-socials" aria-label="Social Media Profiles">
+              <a
+                href="https://github.com/chirudeepakcherry-bot"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="GitHub Profile"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.9"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                  ></path>
+                  <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                </svg>
+                <span>GitHub</span>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/chirudeepak-cherry-63aa1443b/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="social-link"
+                aria-label="LinkedIn Profile"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.9"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                  ></path>
+                  <rect width="4" height="12" x="2" y="9"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Right Column: Circular Profile Photo -->
+          <div class="hero-media">
+            <div class="glass-card profile-frame">
+              <div class="profile-photo-wrapper">
+                <img
+                  src="/assets/aistudio/WhatsApp_Image_2026-11-07_at_9.45.09_PM_3dc6c501.jpeg"
+                  alt="Portrait of Nunna Chirudeepak"
+                  class="profile-photo"
+                />
+              </div>
+
+              <div class="profile-caption">
+                <p class="profile-caption-name">Nunna Chirudeepak</p>
+                <p class="profile-caption-meta">B.Tech CSE &middot; Class of 2029</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           2. ABOUT ME SECTION
+           ========================================================= -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">01. Introduction</p>
+            <h2 class="section-title">About Me</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-prose">
+              <p class="lead-paragraph">
+                I am a first-year Bachelor of Technology (B.Tech) student in Computer Science and
+                Engineering at <strong>Joy University</strong>, studying in academic collaboration
+                with <strong>NIAT / NxtWave</strong>.
+              </p>
+              <p>
+                I am passionate about programming and technology, and I am actively building a strong
+                foundation in software development. Currently, I am learning <strong>Python</strong>,
+                <strong>HTML5</strong>, <strong>CSS3</strong>, and core web development concepts.
+              </p>
+              <p>
+                I enjoy exploring new technologies, sharpening my analytical problem-solving skills,
+                and turning ideas into creative, useful projects. My long-term goal is to grow into a
+                skilled professional software developer who builds reliable software that helps
+                people.
+              </p>
+            </div>
+
+            <aside class="glass-card about-summary" aria-label="Student Quick Facts">
+              <h3 class="summary-heading">Academic &amp; Developer Profile</h3>
+              <dl class="summary-list">
+                <div class="summary-row">
+                  <dt>Full Name</dt>
+                  <dd>Nunna Chirudeepak</dd>
+                </div>
+                <div class="summary-row">
+                  <dt>Degree &amp; Branch</dt>
+                  <dd>B.Tech &ndash; Computer Science &amp; Engineering</dd>
+                </div>
+                <div class="summary-row">
+                  <dt>University</dt>
+                  <dd>Joy University (NIAT / NxtWave)</dd>
+                </div>
+                <div class="summary-row">
+                  <dt>Current Year</dt>
+                  <dd>1st Year Undergraduate</dd>
+                </div>
+                <div class="summary-row">
+                  <dt>Focus Areas</dt>
+                  <dd>Python &middot; HTML5 &middot; CSS3 &middot; Problem Solving</dd>
+                </div>
+              </dl>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           3. SKILLS SECTION
+           ========================================================= -->
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">02. Technical Foundation</p>
+            <h2 class="section-title">Skills &amp; Learning Focus</h2>
+            <p class="section-subtitle">
+              An honest overview of the core technologies and computer science fundamentals I am
+              practicing as a first-year engineering student.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <!-- Skill 1: Python -->
+            <article class="glass-card skill-card">
+              <div class="card-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <polyline points="4 17 10 11 4 5"></polyline>
+                  <line x1="12" y1="19" x2="20" y2="19"></line>
+                </svg>
+              </div>
+              <div class="skill-meta">Beginner &middot; Currently Learning</div>
+              <h3 class="card-title">Python</h3>
+              <p class="card-desc">
+                Practicing core Python syntax, variables, conditionals, loops, and functions through
+                structured programming exercises.
+              </p>
+            </article>
+
+            <!-- Skill 2: HTML5 -->
+            <article class="glass-card skill-card">
+              <div class="card-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div class="skill-meta">Core Markup &middot; Practicing</div>
+              <h3 class="card-title">HTML5</h3>
+              <p class="card-desc">
+                Structuring clean, accessible, and semantic web pages using standard HTML5 landmarks,
+                lists, links, and media elements.
+              </p>
+            </article>
+
+            <!-- Skill 3: CSS3 -->
+            <article class="glass-card skill-card">
+              <div class="card-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <rect width="18" height="18" x="3" y="3" rx="2"></rect>
+                  <path d="M3 9h18"></path>
+                  <path d="M9 21V9"></path>
+                </svg>
+              </div>
+              <div class="skill-meta">Styling &amp; Layout &middot; Practicing</div>
+              <h3 class="card-title">CSS3</h3>
+              <p class="card-desc">
+                Building modern responsive designs with Flexbox, CSS Grid, custom variables, subtle
+                transitions, and media queries.
+              </p>
+            </article>
+
+            <!-- Skill 4: Basic Web Development -->
+            <article class="glass-card skill-card">
+              <div class="card-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path
+                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                  ></path>
+                </svg>
+              </div>
+              <div class="skill-meta">Foundational &middot; Static Sites</div>
+              <h3 class="card-title">Basic Web Development</h3>
+              <p class="card-desc">
+                Combining HTML5 and CSS3 to design multi-section layouts that adapt cleanly across
+                mobile, tablet, and desktop screens.
+              </p>
+            </article>
+
+            <!-- Skill 5: Computer Science Fundamentals -->
+            <article class="glass-card skill-card">
+              <div class="card-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                  <rect x="9" y="9" width="6" height="6"></rect>
+                  <path d="M15 2v2"></path>
+                  <path d="M15 20v2"></path>
+                  <path d="M2 15h2"></path>
+                  <path d="M2 9h2"></path>
+                  <path d="M20 15h2"></path>
+                  <path d="M20 9h2"></path>
+                  <path d="M9 2v2"></path>
+                  <path d="M9 20v2"></path>
+                </svg>
+              </div>
+              <div class="skill-meta">Academic Core &middot; 1st Year CSE</div>
+              <h3 class="card-title">Computer Science Fundamentals</h3>
+              <p class="card-desc">
+                Developing a solid grasp of computing principles, logical flow, and structured
+                software engineering concepts.
+              </p>
+            </article>
+
+            <!-- Skill 6: Problem Solving -->
+            <article class="glass-card skill-card">
+              <div class="card-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M12 2v4"></path>
+                  <path d="m16.2 7.8 2.9-2.9"></path>
+                  <path d="M18 12h4"></path>
+                  <path d="m16.2 16.2 2.9 2.9"></path>
+                  <path d="M12 18v4"></path>
+                  <path d="m4.9 19.1 2.9-2.9"></path>
+                  <path d="M2 12h4"></path>
+                  <path d="m4.9 4.9 2.9 2.9"></path>
+                </svg>
+              </div>
+              <div class="skill-meta">Analytical Mindset &middot; Daily Practice</div>
+              <h3 class="card-title">Problem Solving</h3>
+              <p class="card-desc">
+                Breaking down programming problems into clear, logical steps and debugging code
+                patiently to find clean solutions.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           4. PROJECTS SECTION
+           ========================================================= -->
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">03. Selected Work</p>
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">
+              Foundational projects built while learning web design and Python programming.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Project 1: Personal Portfolio Website -->
+            <article class="glass-card project-card">
+              <!-- Project Image Placeholder (Swap with <img src="images/project-1.jpg" alt="..."> when ready) -->
+              <div class="project-preview" aria-label="Project 1 preview placeholder">
+                <svg
+                  class="preview-illustration"
+                  viewBox="0 0 320 180"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <rect
+                    x="20"
+                    y="18"
+                    width="280"
+                    height="144"
+                    rx="10"
+                    fill="#0b152d"
+                    stroke="#2563eb"
+                    stroke-opacity="0.4"
+                  />
+                  <line x1="20" y1="42" x2="300" y2="42" stroke="#3b82f6" stroke-opacity="0.25" />
+                  <circle cx="38" cy="30" r="3.5" fill="#38bdf8" fill-opacity="0.7" />
+                  <circle cx="51" cy="30" r="3.5" fill="#3b82f6" fill-opacity="0.5" />
+                  <circle cx="64" cy="30" r="3.5" fill="#64748b" fill-opacity="0.5" />
+                  <rect x="40" y="64" width="128" height="14" rx="4" fill="#3b82f6" fill-opacity="0.55" />
+                  <rect x="40" y="88" width="110" height="8" rx="3" fill="#94a3b8" fill-opacity="0.35" />
+                  <rect x="40" y="104" width="90" height="8" rx="3" fill="#94a3b8" fill-opacity="0.25" />
+                  <rect x="40" y="124" width="64" height="18" rx="5" fill="#2563eb" />
+                  <rect
+                    x="196"
+                    y="60"
+                    width="82"
+                    height="84"
+                    rx="8"
+                    fill="#132245"
+                    stroke="#38bdf8"
+                    stroke-opacity="0.35"
+                  />
+                  <circle cx="237" cy="94" r="14" stroke="#38bdf8" stroke-opacity="0.6" stroke-width="2" />
+                  <path
+                    d="M217 128c4-10 36-10 40 0"
+                    stroke="#38bdf8"
+                    stroke-opacity="0.6"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </svg>
+                <span class="preview-caption">Project Preview Placeholder</span>
+              </div>
+
+              <div class="project-body">
+                <p class="project-tech">HTML5 &middot; CSS3</p>
+                <h3 class="card-title">Personal Portfolio Website</h3>
+                <p class="card-desc">
+                  A personal website designed from scratch to showcase my academic profile, technical
+                  skills, education, career goals, and projects in a clean responsive layout.
+                </p>
+                <div class="project-actions">
+                  <!-- Replace with your exact repository URL once pushed to GitHub -->
+                  <a
+                    href="https://github.com/chirudeepakcherry-bot"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-outline btn-sm"
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                      ></path>
+                      <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                    </svg>
+                    <span>GitHub</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 2: Python Programming Projects -->
+            <article class="glass-card project-card">
+              <div class="project-preview" aria-label="Project 2 preview placeholder">
+                <svg
+                  class="preview-illustration"
+                  viewBox="0 0 320 180"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <rect
+                    x="20"
+                    y="18"
+                    width="280"
+                    height="144"
+                    rx="10"
+                    fill="#0b152d"
+                    stroke="#2563eb"
+                    stroke-opacity="0.4"
+                  />
+                  <line x1="20" y1="42" x2="300" y2="42" stroke="#3b82f6" stroke-opacity="0.25" />
+                  <rect x="40" y="60" width="96" height="8" rx="3" fill="#38bdf8" fill-opacity="0.7" />
+                  <rect x="56" y="78" width="144" height="8" rx="3" fill="#94a3b8" fill-opacity="0.45" />
+                  <rect x="56" y="96" width="118" height="8" rx="3" fill="#3b82f6" fill-opacity="0.55" />
+                  <rect x="72" y="114" width="160" height="8" rx="3" fill="#94a3b8" fill-opacity="0.35" />
+                  <rect x="40" y="132" width="108" height="8" rx="3" fill="#38bdf8" fill-opacity="0.55" />
+                </svg>
+                <span class="preview-caption">Project Preview Placeholder</span>
+              </div>
+
+              <div class="project-body">
+                <p class="project-tech">Python</p>
+                <h3 class="card-title">Python Programming Projects</h3>
+                <p class="card-desc">
+                  A collection of beginner-level Python programs and coding exercises exploring logic
+                  building, loops, conditional branching, and basic problem solving.
+                </p>
+                <div class="project-actions">
+                  <a
+                    href="https://github.com/chirudeepakcherry-bot"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-outline btn-sm"
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                      ></path>
+                      <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                    </svg>
+                    <span>GitHub</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3: Responsive Landing Page -->
+            <article class="glass-card project-card">
+              <div class="project-preview" aria-label="Project 3 preview placeholder">
+                <svg
+                  class="preview-illustration"
+                  viewBox="0 0 320 180"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <rect
+                    x="20"
+                    y="18"
+                    width="190"
+                    height="144"
+                    rx="10"
+                    fill="#0b152d"
+                    stroke="#2563eb"
+                    stroke-opacity="0.4"
+                  />
+                  <rect x="38" y="38" width="154" height="24" rx="5" fill="#132245" />
+                  <rect x="38" y="74" width="46" height="66" rx="6" fill="#132245" stroke="#3b82f6" stroke-opacity="0.35" />
+                  <rect x="92" y="74" width="46" height="66" rx="6" fill="#132245" stroke="#3b82f6" stroke-opacity="0.35" />
+                  <rect x="146" y="74" width="46" height="66" rx="6" fill="#132245" stroke="#3b82f6" stroke-opacity="0.35" />
+                  <rect
+                    x="228"
+                    y="40"
+                    width="72"
+                    height="122"
+                    rx="10"
+                    fill="#0b152d"
+                    stroke="#38bdf8"
+                    stroke-opacity="0.5"
+                  />
+                  <rect x="240" y="56" width="48" height="26" rx="4" fill="#2563eb" fill-opacity="0.5" />
+                  <rect x="240" y="92" width="48" height="24" rx="4" fill="#132245" />
+                  <rect x="240" y="124" width="48" height="24" rx="4" fill="#132245" />
+                </svg>
+                <span class="preview-caption">Project Preview Placeholder</span>
+              </div>
+
+              <div class="project-body">
+                <p class="project-tech">HTML5 &middot; CSS3</p>
+                <h3 class="card-title">Responsive Landing Page</h3>
+                <p class="card-desc">
+                  A simple, modern webpage crafted with responsive CSS Grid and Flexbox layouts so
+                  content scales smoothly across desktop, tablet, and mobile devices.
+                </p>
+                <div class="project-actions">
+                  <a
+                    href="https://github.com/chirudeepakcherry-bot"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-outline btn-sm"
+                  >
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path
+                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                      ></path>
+                      <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                    </svg>
+                    <span>GitHub</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           5. EDUCATION SECTION
+           ========================================================= -->
+      <section id="education" class="section section-alt">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">04. Academic Background</p>
+            <h2 class="section-title">Education</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="glass-card timeline-card">
+                <p class="timeline-status">Currently Pursuing &ndash; 1st Year</p>
+                <h3 class="timeline-degree">Bachelor of Technology (B.Tech)</h3>
+                <p class="timeline-branch">Computer Science and Engineering (CSE)</p>
+
+                <dl class="education-details">
+                  <div class="education-detail-item">
+                    <dt>Institution</dt>
+                    <dd>Joy University</dd>
+                  </div>
+                  <div class="education-detail-item">
+                    <dt>Academic Collaboration</dt>
+                    <dd>NIAT / NxtWave</dd>
+                  </div>
+                  <div class="education-detail-item">
+                    <dt>Current Focus</dt>
+                    <dd>Programming Foundations, Web Design &amp; Problem Solving</dd>
+                  </div>
+                </dl>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           6. CAREER GOALS SECTION
+           ========================================================= -->
+      <section id="goals" class="section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">05. Vision &amp; Roadmap</p>
+            <h2 class="section-title">Career Goals</h2>
+            <p class="section-subtitle">
+              Clear milestones guiding my growth from a first-year Computer Science student to an
+              industry-ready engineer.
+            </p>
+          </div>
+
+          <ol class="goals-grid">
+            <li class="glass-card goal-card">
+              <span class="goal-index">01</span>
+              <h3 class="card-title">Become a Professional Software Developer</h3>
+              <p class="card-desc">
+                Build strong engineering discipline, clean coding habits, and deep understanding of
+                software architecture.
+              </p>
+            </li>
+
+            <li class="glass-card goal-card">
+              <span class="goal-index">02</span>
+              <h3 class="card-title">Improve Programming &amp; Technical Skills</h3>
+              <p class="card-desc">
+                Continuously practice Python, data logic, and core computer science concepts to
+                strengthen my technical foundation.
+              </p>
+            </li>
+
+            <li class="glass-card goal-card">
+              <span class="goal-index">03</span>
+              <h3 class="card-title">Build Real-World Projects</h3>
+              <p class="card-desc">
+                Move beyond classroom exercises by designing and shipping practical projects that solve
+                everyday problems.
+              </p>
+            </li>
+
+            <li class="glass-card goal-card">
+              <span class="goal-index">04</span>
+              <h3 class="card-title">Learn Modern Web Development</h3>
+              <p class="card-desc">
+                Master HTML5 and CSS3 first, then progressively expand into JavaScript and modern
+                full-stack web technologies.
+              </p>
+            </li>
+
+            <li class="glass-card goal-card">
+              <span class="goal-index">05</span>
+              <h3 class="card-title">Gain Practical Industry Experience</h3>
+              <p class="card-desc">
+                Seek meaningful internships, collaborative team projects, and mentorship opportunities
+                to learn how production software is built.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           7. CONTACT SECTION
+           ========================================================= -->
+      <section id="contact" class="section section-alt">
+        <div class="container">
+          <div class="glass-card contact-card">
+            <div class="contact-copy">
+              <p class="section-kicker">06. Get In Touch</p>
+              <h2 class="section-title">Let&rsquo;s Connect</h2>
+              <p class="contact-message">
+                I am always eager to connect with fellow students, mentors, and recruiters. Whether
+                you have an internship opportunity, a collaborative project idea, or advice for an
+                aspiring software developer, feel free to reach out.
+              </p>
+              <div class="contact-cta-row">
+                <a href="mailto:chirudeepakcherry@gmail.com" class="btn btn-primary">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                  </svg>
+                  <span>Send Email</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-links">
+              <a href="mailto:chirudeepakcherry@gmail.com" class="contact-link-row">
+                <span class="contact-link-label">Email</span>
+                <span class="contact-link-value">chirudeepakcherry@gmail.com</span>
+              </a>
+
+              <a
+                href="https://github.com/chirudeepakcherry-bot"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-link-row"
+              >
+                <span class="contact-link-label">GitHub</span>
+                <span class="contact-link-value">github.com/chirudeepakcherry-bot</span>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/chirudeepak-cherry-63aa1443b/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-link-row"
+              >
+                <span class="contact-link-label">LinkedIn</span>
+                <span class="contact-link-value">linkedin.com/in/chirudeepak-cherry-63aa1443b</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================================================
+         FOOTER
+         ========================================================= -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer-copy">&copy; 2026 Nunna Chirudeepak. Built with HTML5 &amp; CSS3.</p>
+        <div class="footer-links">
+          <a href="#home">Top</a>
+          <a href="https://github.com/chirudeepakcherry-bot" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/chirudeepak-cherry-63aa1443b/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+          <a href="mailto:chirudeepakcherry@gmail.com">Email</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
